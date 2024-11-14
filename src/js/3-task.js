@@ -16,7 +16,7 @@
 // 4 Середню температуру в Цельсія (avgtemp_c)
 // Приклад картки https://prnt.sc/h_p-A6Hty-i-
 
-const BASE_URL = 'http://api.weatherapi.com/v1';
+const BASE_URL = 'https://api.weatherapi.com/v1';
 const API_KEY = 'edd1b78e40984fc0a09123641241411';
 
 const form = document.querySelector('.js-search-form');
