@@ -1,0 +1,2 @@
+import"./assets/modulepreload-polyfill-B5Qt9EMX.js";/* empty css                      *//* empty css                      */const e=5e4,i=document.querySelector(".js-alert");let t=null;i.addEventListener("click",c);n();function n(){i.classList.add("is-visible"),t=setTimeout(()=>{console.log("hide"),o()},e)}function c(){o(),clearTimeout(t)}function o(){i.classList.remove("is-visible")}
+//# sourceMappingURL=4-task.js.map

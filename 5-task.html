@@ -4,22 +4,23 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>INFINITY SCROLL</title>
-    <script type="module" crossorigin src="/js-practice-cases/1-task.js"></script>
+    <title>TIMER</title>
+    <script type="module" crossorigin src="/js-practice-cases/5-task.js"></script>
     <link rel="modulepreload" crossorigin href="/js-practice-cases/assets/modulepreload-polyfill-B5Qt9EMX.js">
-    <link rel="modulepreload" crossorigin href="/js-practice-cases/assets/vendor-CNNbG8jS.js">
     <link rel="stylesheet" crossorigin href="/js-practice-cases/assets/styles-BKEdqe9d.css">
-    <link rel="stylesheet" crossorigin href="/js-practice-cases/assets/1-task-gBqjE3Uj.css">
   </head>
   <body>
     <main>
       <div class="container">
-        <h1 class="main-title">INFINITY SCROLL</h1>
+        <h1 class="main-title">TIMER</h1>
         <a class="back-link" href="./index.html">Go back</a>
-        <div id="app">
-          <ul class="js-movie-list movie-list"></ul>
-          <!-- Infinity scroll -->
-          <div class="js-guard"></div>
+        <div class="timer">
+          <p class="clockface"></p>
+
+          <div class="actions">
+            <button class="timer-btn" data-action-start>Start</button>
+            <button class="timer-btn" data-action-stop>Stop</button>
+          </div>
         </div>
       </div>
     </main>
